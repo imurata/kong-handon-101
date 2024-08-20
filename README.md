@@ -1,5 +1,8 @@
 # kong-handon-101
 
+Webinar資料： \
+https://speakerdeck.com/ipppppei/sabamokuraudomobu-yao-rokarupcwoshi-tute-kong-gatewaywogou-zhu-sitemiyou
+
 ## 01-build-gw.sh
 以下を行います。
 - Docker Networkの作成
