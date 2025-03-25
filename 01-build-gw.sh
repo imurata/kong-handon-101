@@ -24,7 +24,7 @@ docker run --rm --network=kong-net \
  -e "KONG_PG_HOST=kong-database" \
  -e "KONG_PG_PASSWORD=kongpass" \
  -e "KONG_PASSWORD=test" \
-kong/kong-gateway:3.7.1.2 kong migrations bootstrap
+kong/kong-gateway:3.9.1.1 kong migrations bootstrap
 
 docker run -d --name kong-gateway \
  --network=kong-net \
