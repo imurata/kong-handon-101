@@ -17,7 +17,7 @@ docker run -d --name kong-database \
   -e "POSTGRES_USER=kong" \
   -e "POSTGRES_DB=kong" \
   -e "POSTGRES_PASSWORD=kongpass" \
-  postgres:13
+  postgres:16
 
 docker run --rm --network=kong-net \
  -e "KONG_DATABASE=postgres" \
@@ -36,6 +36,6 @@ docker run -d --name kong-gateway \
  -p 8000:8000 \
  -p 8001:8001 \
  -p 8002:8002 \
- kong/kong-gateway:3.7.1.2
+ kong/kong-gateway:3.9.1.1
 
 open http://localhost:8002/
